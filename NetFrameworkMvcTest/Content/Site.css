@@ -1,0 +1,172 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+footer.navbar {
+    border-top: 1px solid #1E88E5;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    /*position: absolute;*/
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0px;
+    }
+}
+
+.asp-sitemap {
+    font-style: italic;
+    font-size: 13px;
+}
+
+    .asp-sitemap a {
+        color: #1E88E5;
+    }
+
+.asp-navbar-inverse,
+.asp-headerbar {
+    height: 69px;
+    padding: 0px 20px;
+}
+
+    .asp-headerbar a,
+    .asp-headerbar a:hover
+    .asp-headerbar a:focus,
+    .asp-headerbar a:active {
+        color: #1E88E5;
+        text-decoration: none;
+        font-size: 22px;
+    }
+
+    .asp-headerbar .navbar-brand {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+a.asp-navbar-fixed {
+    margin-left: 10px !important;
+}
+
+a.asp-navbar-fixed,
+.asp-main-heading {
+    padding: 25px 15px 0px 15px;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.asp-navbar-fixed,
+.asp-navbar-fixed:hover {
+    opacity: 0.95;
+    background-color: #1E88E5;
+    color: white;
+}
+
+    .asp-navbar-fixed a {
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+.asp-navbar,
+.asp-navbar:hover {
+    opacity: 0.95;
+    background-color: #1E88E5;
+    border-radius: 0px;
+    height: 30px;
+    min-height: 30px;
+    border: 0px;
+    padding: 0px 29px;
+    margin-bottom: 0px;
+    z-index: 1000;
+}
+
+.asp-navbar-separator {
+    height: 30px;
+    margin: 0px 6px;
+}
+
+.asp-logo,
+.asp-logo-inverse {
+    margin-top: 7px;
+}
+
+    .asp-logo img,
+    .asp-logo-inverse img {
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+    }
+
+.mainLanguage {
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+    .mainLanguage li {
+        margin-right: 5px;
+    }
+
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+    .navbar-nav > li > a.asp-nav-icon, a.asp-nav-icon {
+        padding: 4px 8px;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .navbar-nav > li > a:hover,
+    .navbar-nav > li > a:focus {
+        color: #1565C0;
+        background-color: #f9f9f9;
+        border-top: 1px solid #1E88E5;
+    }
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+a.asp-nav-icon > i {
+    margin-right: 5px;
+}
+
+a.btn-help {
+    padding: 0px !important;
+    color: #1E88E5 !important;
+    font-size: 14px !important;
+    height: 23px !important;
+}
+
+    a.btn-help:hover {
+        border-top: 1px solid transparent !important;
+        border-bottom: 2px solid #1E88E5;
+    }
+
+    a.btn-help, a.btn-help:hover, а.btn-help:visited, a.btn-help:active, a.btn-help:focus {
+        text-decoration: none;
+    }
